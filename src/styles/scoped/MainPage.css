@@ -62,3 +62,73 @@
     width: 190px;
     height: 78px;
 }
+
+.lightweight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    color: #BBBBBB;
+    /*background-color: #282828;*/
+}
+
+.lightweight_text {
+    width: 40vw;
+}
+
+.cross_platform {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    color: #BBBBBB;
+}
+
+.cross_platform_text {
+    width: 40vw;
+}
+
+.game_launcher {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    color: #BBBBBB;
+    /*background-color: #282828;*/
+}
+
+.game_launcher_text {
+    width: 40vw;
+}
+
+/*.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, 60%);
+    background-color: #282828;
+    z-index: -1;
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #1e1e1e;
+    transform: translate(-4%, 40%);
+    z-index: 101;
+}*/

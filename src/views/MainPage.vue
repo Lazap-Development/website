@@ -17,6 +17,24 @@
         </div>
       </div>
     </div>
+
+    <div class="lightweight">
+      <p class="lightweight_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita similique, nihil voluptas unde ipsum repellat vitae? Mollitia assumenda animi veniam nesciunt neque sit? Nesciunt impedit suscipit ratione ipsam voluptate!</p>
+      <img src="https://via.placeholder.com/600x400/23">
+      <div class="curve"></div>
+    </div>
+
+    <div class="cross_platform">
+      <img src="https://via.placeholder.com/600x400/23">
+      <p class="cross_platform_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita similique, nihil voluptas unde ipsum repellat vitae? Mollitia assumenda animi veniam nesciunt neque sit? Nesciunt impedit suscipit ratione ipsam voluptate!</p>
+      <div class="curve"></div>
+    </div>
+
+    <div class="game_launcher">
+      <p class="game_launcher_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita similique, nihil voluptas unde ipsum repellat vitae? Mollitia assumenda animi veniam nesciunt neque sit? Nesciunt impedit suscipit ratione ipsam voluptate!</p>
+      <img src="https://via.placeholder.com/600x400/23">
+      <div class="curve"></div>
+    </div>
   </div>
 </template>
 
