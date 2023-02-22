@@ -32,4 +32,4 @@
 
 ## **:: FAQ:**
 - ### **Why is this readme so bad who the hell wrote this ??!?**
-  - #### I strongly apologize for making you think that but I'm doing as best as I can to make this informational enough for everyone.
+  - #### I express my sincerest apologies for having caused you to hold such a belief. However, I am exerting my utmost effort to ensure that this information is presented in a manner that is accessible to all and easy to begin with. (this absolutely wasn't written with chatgpt)

@@ -2,18 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-    @font-face {
-        font-family: Nunito;
-        src: url("../assets/fonts/Nunito-SemiBold.ttf") 
-            format("truetype");
-    }
-      
-    @font-face {
-        font-family: Nunito-Bold;
-        src: url("../assets/fonts/Nunito-Medium.ttf")
-            format("truetype");
-    }
 }
 
 body {
@@ -21,4 +9,16 @@ body {
     background-image: url("../assets/circle-scatter-haikei.svg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @font-face {
+        font-family: Nunito;
+        src: url("../assets/fonts/Nunito-Medium.ttf") format("truetype");
+    }
+      
+    @font-face {
+        font-family: Nunito-Bold;
+        src: url("../assets/fonts/Nunito-SemiBold.ttf") format("truetype");
+    }
+
+    font-family: "Nunito", 'Courier New', Courier, monospace;
 }
