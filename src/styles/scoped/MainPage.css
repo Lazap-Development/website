@@ -1,10 +1,17 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .content {
@@ -61,4 +68,48 @@
     font-size: 64px;
     width: 190px;
     height: 78px;
+}
+
+.lightweight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: #BBBBBB;
+    width: 100%;
+}
+
+.lightweight_text {
+    width: 40vw;
+    text-align: end;
+    margin-right: 75px;
+}
+
+.cross_platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: #BBBBBB;
+    width: 100%;
+}
+
+.cross_platform_text {
+    width: 40vw;
+    margin-left: 75px;
+}
+
+.game_launcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: #BBBBBB;
+    width: 100%;
+}
+
+.game_launcher_text {
+    width: 40vw;
+    text-align: end;
+    margin-right: 75px;
 }
