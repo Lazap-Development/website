@@ -20,9 +20,17 @@
     justify-content: space-evenly;
     align-items: center;
     height: 245px;
+    scale: 1.2;
 }
 
-.download_button {
+.download {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +41,11 @@
     width: 133px;
     border-radius: 15px;
     text-shadow: 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all .3s;
+}
+
+.button:hover {
+    scale: 0.9;
 }
 
 .upper_content {
@@ -46,11 +59,20 @@
 .lazap_features {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-end;
     width: 149px;
     height: 76px;
     color: #BEBEBE;
+}
+
+.lazap_features>p {
+    transition: all .3s;
+}
+
+.lazap_features>p:hover {
+    scale: 0.9;
+    cursor: pointer;
 }
 
 .seperating_line {
@@ -77,6 +99,7 @@
     min-height: 80vh;
     color: #BBBBBB;
     width: 100%;
+    background-color: #1e1e1e;
 }
 
 .lightweight_text {
@@ -92,6 +115,7 @@
     min-height: 80vh;
     color: #BBBBBB;
     width: 100%;
+    background-color: #1e1e1e;
 }
 
 .cross_platform_text {
@@ -106,10 +130,16 @@
     min-height: 80vh;
     color: #BBBBBB;
     width: 100%;
+    background-color: #1e1e1e;
 }
 
 .game_launcher_text {
     width: 40vw;
     text-align: end;
     margin-right: 75px;
+}
+
+.image {
+    height: 400px;
+    width: 600px;
 }
