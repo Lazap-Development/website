@@ -23,7 +23,7 @@
     scale: 1.2;
 }
 
-.download {
+.buttons {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,13 +34,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #442B89;
+    background-color: #3000b3;
     color: #BBBBBB;
     text-decoration: none;
     height: 39px;
     width: 133px;
     border-radius: 15px;
-    text-shadow: 4px 0px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 4px 0px rgba(0, 0, 0, 0.25); */
     transition: all .3s;
 }
 
@@ -68,6 +68,7 @@
 
 .lazap_features>p {
     transition: all .3s;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .lazap_features>p:hover {
@@ -75,24 +76,25 @@
     cursor: pointer;
 }
 
-.seperating_line {
+.v-divider {
     height: 77px;
     width: 2px;
     background-color: #444444;
 }
 
-.lazap_logo {
+.logo {
     height: 60px;
     width: 60px;
 }
 
-.program_name {
+.title {
     font-size: 64px;
     width: 190px;
     height: 78px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.lightweight {
+.desc-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,44 +104,30 @@
     background-color: #1e1e1e;
 }
 
-.lightweight_text {
+.text {
+    display: flex;
     width: 40vw;
+    margin-left: 16px;
+    margin-right: 16px;
+    flex-direction: column;
+    line-height: 32px;
+}
+
+.h-divider {
+    width: 40vw;
+    height: 2px;
+    background-color: #4e4e4e;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.align-r {
     text-align: end;
-    margin-right: 75px;
-}
-
-.cross_platform {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
-    color: #BBBBBB;
-    width: 100%;
-    background-color: #1e1e1e;
-}
-
-.cross_platform_text {
-    width: 40vw;
-    margin-left: 75px;
-}
-
-.game_launcher {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
-    color: #BBBBBB;
-    width: 100%;
-    background-color: #1e1e1e;
-}
-
-.game_launcher_text {
-    width: 40vw;
-    text-align: end;
-    margin-right: 75px;
 }
 
 .image {
-    height: 400px;
-    width: 600px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 315px;
+    width: 680px;
 }
