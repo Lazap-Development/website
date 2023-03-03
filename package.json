@@ -8,7 +8,9 @@
     "lint": "yarn && vue-cli-service lint"
   },
   "dependencies": {
+    "compression": "^1.7.4",
     "core-js": "^3.8.3",
+    "express": "^4.18.2",
     "vue": "^3.2.13",
     "vue-router": "^4.1.6"
   },

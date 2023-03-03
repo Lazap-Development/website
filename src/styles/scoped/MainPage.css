@@ -34,18 +34,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3000b3;
-    color: #BBBBBB;
+    background-color: #6b42dd;
+    color: #cdcdcd;
     text-decoration: none;
-    height: 39px;
-    width: 133px;
+    height: 40px;
+    width: 135px;
     border-radius: 15px;
+    font-weight: 500;
     /* text-shadow: 4px 0px rgba(0, 0, 0, 0.25); */
     transition: all .3s;
+    user-select: none;
 }
 
 .button:hover {
-    scale: 0.9;
+    background-color: #6030e3;
 }
 
 .upper_content {
@@ -63,16 +65,14 @@
     align-items: flex-end;
     width: 149px;
     height: 76px;
-    color: #BEBEBE;
+    color: #f6f6f6;
 }
 
 .lazap_features>p {
-    transition: all .3s;
-    font-family: 'Courier New', Courier, monospace;
+    cursor: default;
 }
 
 .lazap_features>p:hover {
-    scale: 0.9;
     cursor: pointer;
 }
 
@@ -83,21 +83,18 @@
 }
 
 .logo {
-    height: 60px;
-    width: 60px;
+    width: 80px;
 }
 
 .title {
     font-size: 64px;
-    width: 190px;
-    height: 78px;
 }
 
 .desc-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 50vh;
     color: #BBBBBB;
     width: 100%;
     background-color: #1e1e1e;
@@ -105,7 +102,7 @@
 
 .text {
     display: flex;
-    width: 40vw;
+    width: 30vw;
     margin-left: 16px;
     margin-right: 16px;
     flex-direction: column;
@@ -113,20 +110,31 @@
 }
 
 .h-divider {
-    width: 40vw;
+    width: 30vw;
     height: 2px;
     background-color: #4e4e4e;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.align-r {
-    text-align: end;
-}
+
 
 .image {
     margin-left: 16px;
     margin-right: 16px;
-    height: 315px;
-    width: 680px;
+    width: 800px;
+}
+
+.footer {
+    height: 100px;
+    color: rgb(176, 176, 176);
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+}
+
+.mgnb {
+    padding-bottom: 200px;
 }

@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import MainPage from "@/views/MainPage.vue";
 
 const routes = [
-    { path: '/', component: MainPage, meta: { title: "Lazap" } },
+    { path: '/', component: MainPage, meta: { title: "Streamline gaming with modern library - Lazap" } },
 ]
 
 const router = createRouter({
