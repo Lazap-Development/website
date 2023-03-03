@@ -17,7 +17,7 @@ app.use('/dist', function (req, res) {
 });
 
 const server = http.createServer(app);
-const port = 8081;
+const port = 8082;
 
 server.listen(port);
 console.debug('Website listening on port ' + port);
