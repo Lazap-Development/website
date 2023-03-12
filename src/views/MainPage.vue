@@ -24,9 +24,8 @@
         <h2 class="subtitle">Lightweight</h2>
         <div class="h-divider"></div>
         <p>
-          Lazap is a lightweight game launcher designed to provide seamless
-          experience to gamers. Lazap also has a minimalistic, simplistic
-          and modernistic look.
+          Lazap is a lightweight game launcher designed to provide a seamless
+          experience to gamers. Lazap achives this with its minimalistic, modern look and feel.
         </p>
       </div>
       <img class="image" src="../assets/images/lightweight.png" />
@@ -48,7 +47,7 @@
         <h2 class="subtitle">Game Launcher</h2>
         <div class="h-divider"></div>
         With Lazap, gamers can easily access their games installed on
-        their computer without the hassle of loading different game
+        their computer without the hassle of having to use different game
         launchers.
       </div>
       <img class="image" src="../assets/images/Lazap-Main.png" />
