@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "yarn && vue-cli-service serve",
-    "build": "yarn && vue-cli-service build",
+    "build": "yarn && vue-cli-service build --mode development",
     "lint": "yarn && vue-cli-service lint",
     "host": "yarn node express.js"
   },

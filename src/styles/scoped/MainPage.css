@@ -96,7 +96,7 @@
     min-height: 40vh;
     color: #BBBBBB;
     width: 100%;
-    background-color: #1e1e1e;
+    background-color: #100f14;
     flex-direction: row;
 }
 
@@ -130,7 +130,7 @@
     font-size: 18px;
     align-items: center;
     justify-content: center;
-    background-color: #171717;
+    background-color: #0C0B0E;
 }
 
 .mgnb {
@@ -141,40 +141,50 @@
     .main {
         margin-top: calc(-10%);
     }
+
     .features {
         display: none;
     }
+
     .v-divider {
         display: none;
     }
+
     .upper_content {
         width: 90%;
     }
+
     .desc-content {
         flex-direction: column-reverse;
         margin-bottom: 5%;
         align-content: space-between;
         justify-content: space-around;
     }
-    .desc-content > * {
+
+    .desc-content>* {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
     #cross-platform {
         flex-direction: column;
     }
-    #game-launcher > img {
+
+    #game-launcher>img {
         width: 80%;
     }
+
     /* .desc-content > img {
         width: 80%;
     } */
     .text {
         width: 90%;
     }
+
     .h-divider {
         width: 90%;
     }
+
     .mgnb {
         padding-bottom: 20%;
     }
